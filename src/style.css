@@ -17,11 +17,11 @@ body {
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  padding: 2 170;
+  padding: 2 170px;
 }
 
-.header img {
-  margin-right: 423px;
+.nav {
+  margin-left: auto;
 }
 
 .nav__list {
@@ -56,7 +56,7 @@ body {
   content: '';
   height: 4px;
   width: 100%;
-  display: flex;
+  display: block;
   border-radius: 8px;
   position: absolute;
   bottom: 0;
